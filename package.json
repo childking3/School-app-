@@ -32,6 +32,8 @@
     "seed": "npx tsx prisma/seed.ts"
   },
   "overrides": {
+    "esbuild": "^0.28.1",
+    "js-yaml": "^4.2.0",
     "xcode": {
       "uuid": "$uuid"
     }
@@ -136,7 +138,7 @@
     "@types/uuid": "^10.0.0",
     "@vitejs/plugin-react": "5.0.0",
     "autoprefixer": "10.4.22",
-    "concurrently": "^9.2.1",
+    "concurrently": "^10.0.3",
     "dotenv": "17.2.4",
     "happy-dom": "^20.10.1",
     "jsdom": "27.0.1",
@@ -150,9 +152,10 @@
     "ts-node": "10.9.2",
     "tsx": "4.21.0",
     "typescript": "5.8.2",
-    "vite": "^6.4.3",
+    "vite": "^8.0.16",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-pwa": "1.2.0",
     "vitest": "^4.1.8"
   }
 }
+

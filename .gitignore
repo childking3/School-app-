@@ -85,3 +85,4 @@ test_output_utf8.txt
 !backend/README.md
 .vercel
 *.tmp*
+backend/generated/
